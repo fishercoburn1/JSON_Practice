@@ -7,7 +7,7 @@ public class Company {
     public String companyName;
     @SerializedName("year")
     public int companyYear;
-    @SerializedName("Product")
+    @SerializedName("product")
     public String companyProduct;
 
     public String getCompanyName() {return companyName;}
@@ -16,9 +16,9 @@ public class Company {
 
     public String getCompanyRecentUpdate(){return companyProduct;}
 
-    public Company(String name, int year, String update){
+    public Company(String name, int year, String product){
         companyName = name;
         companyYear = year;
-        companyProduct = update;
+        companyProduct = product;
     }
 }

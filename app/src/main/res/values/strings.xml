@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">JSON_practice</string>
     <string name="title_item_detail">Item Detail</string>
-    <string name="company_url">https://jsonbin.io/5f7ba02f65b18913fc5af740/1</string>
+    <string name="company_url">https://api.jsonbin.io/b/5fa9a0af2769cc5b06ad5889/1</string>
 </resources>
